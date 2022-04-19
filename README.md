@@ -11,7 +11,7 @@ If you know why you're here, simply:
 4. you're done!
 
 ```js
-fetch('https://github.com/baxyz/auto-learn/blob/main/auto-learn.js').then(response => response.text()).then(eval);
+fetch("https://raw.githubusercontent.com/baxyz/auto-learn/main/auto-learn.js").then(response => response.text()).then(eval);
 ```
 
 This piece of code will load the file aside named `auto-learn.js`.
