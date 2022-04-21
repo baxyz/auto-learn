@@ -28,12 +28,12 @@ let _auto = (args) => {
             } else if (!document.getElementById("next-btn").disabled) {
                 _log("--> auto", "found: next");
                 document.getElementById("next-btn").click();
-			} else if (document.querySelector(".option-con.enabled:not(.visited):not(.selected)")) {
+			} else if (document.querySelector('.option-con.enabled:not(.visited):not(.selected)')) {
                 _log("--> auto", "found: option to click");
 				setTimeout(() => document.querySelector(".option-con.enabled:not(.visited):not(.selected)").click());
-			} else if (document.querySelector("document.querySelector(".btn.resource-btn.btn-primary")")) {
+			} else if (document.querySelector(".btn.resource-btn.btn-primary")) {
                 _log("--> auto", "found: document to click");
-				setTimeout(() => document.querySelector("document.querySelector(".btn.resource-btn.btn-primary")").click());
+				setTimeout(() => document.querySelector(".btn.resource-btn.btn-primary").click());
 			} else {
 				_log("--> auto", "nothing found");
 			}
