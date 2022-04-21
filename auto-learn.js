@@ -1,3 +1,5 @@
+"use strict";
+
 const _log = console.log;
 
 console.log = function() {
